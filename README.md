@@ -1,1 +1,2 @@
 "# NOAA-Climate-Data-Science" 
+NOAA internship MATLAB code. Takes in a file for every weather variable for every year from 1964 to 2010. One example of a file is listed as "mslp.JRA-55.daily.grid2-intp2.1999.nc". In reality, the code requires dozens of similar files, but I do not have access to all of them anymore. The code goes through every file, takes in its weather data, calculates the overall climatologies, and then produces an anamoly color map for different months. One example of a produced figure is listed as "MeanSeaLevelPressurePlotForJune5AndJuly15_1997.fig".
